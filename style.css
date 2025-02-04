@@ -1,0 +1,71 @@
+body {
+    background-image: url("https://images.template.net/102660/free-simple-forest-background-8s5mc.jpg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+}
+
+.container-opaque {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    padding: 50px 100px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+    width: 80%;
+    max-width: 800px;
+    text-align: center;
+}
+
+.container-opaque h1 {
+    margin: 0;
+    padding-bottom: 20px;
+    font-size: 2.5rem;
+}
+
+.img-container {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    width: 100%;
+}
+
+.img-container img {
+    max-width: 30%;
+    height: auto;
+    border-radius: 10px;
+}
+
+p {
+    font-size: 0.8rem;
+}
+
+.given-container {
+    padding: 2px;
+    background-color: rgba(255, 255, 255, 0.7);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+.fw-bold {
+    color: black;
+}
+
+.btn-outline-success {
+    border: 2px solid white;
+    color: white;
+    background-color: transparent;
+    transition: all 0.3s ease;
+}
+
+.btn-outline-light:hover {
+    border-color: black;
+    color: black;
+    background-color: white;
+}
